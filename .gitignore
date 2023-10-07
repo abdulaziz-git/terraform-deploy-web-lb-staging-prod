@@ -1,0 +1,36 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock
+*.backup
+
+# Crash log files
+crash.log
+
+# .terraform directory
+.terraform/
+
+# .tfvars files
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Visual Studio Code settings
+.vscode/
+
+# Text editor temporary files
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
