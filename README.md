@@ -33,14 +33,14 @@ terraform workspace new production
 ```bash
 terraform workspace select staging
 terraform plan -var-file=environments/staging/staging.tfvars
-terraform init -var-file=environments/staging/staging.tfvars
+terraform apply -var-file=environments/staging/staging.tfvars
 ```
 
 - Deploy to `production`
 ```bash
 terraform workspace select production
 terraform plan -var-file=environments/production/production.tfvars
-terraform init -var-file=environments/production/production.tfvars
+terraform apply -var-file=environments/production/production.tfvars
 ```
 
 ## Reference
